@@ -36,7 +36,7 @@ def cursos(request):
 
       if request.method == 'POST':
 
-            miFormulario = CursoFormulario(request.POST) #aquí mellega toda la información del html
+            miFormulario = CursoFormulario(request.POST) #aquí me llega toda la información del html
 
             print(miFormulario)
 
